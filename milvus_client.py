@@ -8,7 +8,7 @@ with open('config/config.yaml', 'r') as f:
 # Connect to Milvus server
 def connect_milvus():
     connections.connect("default", host=config['milvus']['host'], port=config['milvus']['port'])
-
+# Gets the collection name 
 def get_milvus_collection(collection_name):
     collection = Collection(name=collection_name)
     return collection
