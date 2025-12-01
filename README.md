@@ -13,7 +13,7 @@ By combining **BERT (Bidirectional Encoder Representations from Transformers)**,
 
 ## Setup 🛠️
 
-Follow these steps to get up and running:
+Follow these steps to get the workflow running:
 
 ### 1. Clone this repository 🔥
 
